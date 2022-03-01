@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  devise_for :users
+  get 'users/index'
+  get 'splash/index'
+  get 'purchases/new'
+  get 'purchases/_form'
+  get 'categories/index'
+  get 'categories/new'
+  get 'categories/show'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
