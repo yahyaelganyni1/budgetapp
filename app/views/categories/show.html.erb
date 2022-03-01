@@ -1,2 +1,13 @@
-<h1>Categories#show</h1>
-<p>Find me in app/views/categories/show.html.erb</p>
+<div class="container">
+  <div class="header flex-row align-center mt-10">
+    <%= render "devise/shared/back_button" %>
+    <h2 class="mr-auto ml-auto">PURCHASES</h2>
+  </div>
+  <span class="total link text-bold">TOTAL: $<%= @category.amount %></span>
+  <ul class="flex-col purchases-list-col list-col gap-10">
+    <%= render 'purchases/index', locals: { purchases: @purchases } %>
+  </ul>
+  <div class="list-button">
+    <%= link_to 'ADD NEW PURCHASE', new_purchase_path %>
+  </div>
+</div>

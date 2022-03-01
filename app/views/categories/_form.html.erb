@@ -1,0 +1,15 @@
+<%= form_with(model: category) do |form| %>
+  <div class="header flex-row align-center mt-10">
+    <%= render "shared/back_button" %>
+    <h2 class="mr-auto ml-auto">ADD NEW CATEGORY</h2>
+    <div class="actions">
+      <%= form.submit "Save"%>
+    </div>
+  </div>
+  <div class="field">
+    <%= form.text_field :name, autofocus: true, placeholder: "Name", required: true, class: "w-full" %>
+  </div>
+  <div class="field">
+    <%= form.url_field :icon, placeholder: "Icon", required: true, class: "w-full" %>
+  </div>
+<% end %>

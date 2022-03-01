@@ -1,0 +1,12 @@
+<li>
+  <%= link_to category_url(category), class: "flex-row data-row link" do %>
+    <div class="flex-row mr-auto gap-10">
+      <%= image_tag(category.icon) %>
+      <div class="flex-col justify-between">
+        <span><%= category.name %></span>
+        <span><%= category.created_at.strftime("%d %b %Y") %></span>
+      </div>
+    </div>
+    <span class="text-bold">$<%= category.amount %></span>
+  <% end %>
+</li>
