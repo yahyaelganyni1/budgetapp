@@ -73,3 +73,4 @@ end
 
 gem 'cancancan'
 gem 'devise'
+gem 'material_icons'
