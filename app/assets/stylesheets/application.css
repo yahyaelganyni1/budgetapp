@@ -13,3 +13,90 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .gap-10 {
+    gap: 10px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-bold {
+    font-weight: bold;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .vh-full {
+    height: 100vh;
+  }
+  
+  .mt-auto {
+    margin-top: auto;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  .mr-auto {
+    margin-right: auto;
+  }
+  
+  .mt-10 {
+    margin-bottom: 10px;
+  }
+  
+  .screen {
+    padding: 10px;
+  }
+  
+  .material-icons {
+    color: white;
+  }
+  
+  /** LOGIN **/
+  
+  .header {
+    padding: 10px;
+    background-color: #3778c2;
+    color: white;
+  }
+  
+  .actions input {
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  
+  .field input {
+    padding: 10px;
+  }
+  
