@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="header flex-row align-center mt-10">
+    <span class="material-icons">menu</span>
+    <h2 class="mr-auto ml-auto">CATEGORIES</h2>
+    <span class="material-icons">search</span>
+  </div>
+  <ul class="flex-col list-col gap-10">
+    <%= render @categories %>
+  </ul>
+  <div class="list-button">
+    <%= link_to 'ADD NEW CATEGORY', new_category_path %>
+  </div>
+</div>

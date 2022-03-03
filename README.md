@@ -1,24 +1,61 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Budget App
 
-Things you may want to cover:
+This project is a budget app built using Ruby on Rails, as part of Microverse projects.
 
-* Ruby version
+It allows you to manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
-* System dependencies
+The [original design idea](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source) is by Gregoire Vella on Behance.
 
-* Configuration
+Video presentation: [view](https://www.loom.com/share/479d012903834192b83a6b5e53525cdc)
 
-* Database creation
+## Built With
 
-* Database initialization
+- Major languages: Ruby
+- Frameworks: Rails
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+To get a local copy up and running, follow the steps below in your terminal.
 
-* Deployment instructions
+### Prerequisites
 
-* ...
+- Ruby
+- Rails
+- PostgreSQL
+- Heroku
+
+### Setup
+
+Clone the project:
+
+```
+
+```
+
+### Deployment
+
+To serve the website:
+
+```
+rails server
+```
+
+The website is deployed on Heroku [here](https://budgetapp11.herokuapp.com/)
+
+## Author
+
+👤 **yahya elgangayni**
+
+- GitHub: [@yahyaElganayni](https://github.com/yahyaelganyni1)
+- Twitter: [@yahyaElganayni](https://twitter.com/crazy20046)
+- LinkedIn: [yahya Elganayni](https://www.linkedin.com/in/yahya-el-ganayni-a456115b/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
