@@ -7,6 +7,7 @@ ruby '3.0.2'
 gem 'rails', '~> 7.0.2', '>= 7.0.2.2'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+gem 'rubocop', '>= 1.0', '< 2.0'
 gem 'sprockets-rails'
 
 # Use postgresql as the database for Active Record
