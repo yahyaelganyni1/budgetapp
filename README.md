@@ -31,7 +31,7 @@ To get a local copy up and running, follow the steps below in your terminal.
 Clone the project:
 
 ```
-git clone https://github.com/AkashaRojee/rails-budget-app.git
+
 ```
 
 ### Deployment
